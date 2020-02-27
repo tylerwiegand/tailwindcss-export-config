@@ -7,8 +7,7 @@
   "scripts": {
     "build": "bili src/index.js",
     "test": "jest",
-    "release": "npm run build && standard-version",
-    "postinstall": "cd node_modules/tailwindcss-export-config && yarn && yarn build"
+    "release": "npm run build && standard-version"
   },
   "files": [
     "dist",
