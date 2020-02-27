@@ -125,7 +125,7 @@ class Converter {
    * @private
    */
   _buildObjectEntry (key, value, indent, index = 0, metricIndex) {
-    return indentWith(`${this._objectEntryKeySanitizer(key)}: ${this._sanitizePropValue(value)},\n`, indent + 2)
+    return indentWith(`'${this._objectEntryKeySanitizer(key)}': ${this._sanitizePropValue(value)},\n`, indent + 2)
   }
 
   /**
